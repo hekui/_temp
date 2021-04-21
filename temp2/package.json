@@ -1,0 +1,48 @@
+{
+  "name": "temp2",
+  "version": "1.0.0",
+  "author": "",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "ioredis": "^4.17.3",
+    "json-bigint": "^1.0.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^5.0.0",
+    "koa-xml-body": "^2.2.0",
+    "log4js": "^3.0.3",
+    "mysql": "^2.18.1",
+    "sha1": "^1.1.1",
+    "uuid": "^8.3.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.5.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
